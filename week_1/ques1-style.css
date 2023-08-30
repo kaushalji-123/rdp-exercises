@@ -1,0 +1,19 @@
+
+  .grid-container {
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 10px;
+    background-color: rgb(230, 105, 201);
+    border: 25px solid black;
+  }
+
+  .grid-item {
+    margin: 10px 10px;
+    height: 50px;
+    width: 50px;
+    background-color: #a070b8;
+    padding: 20px;
+    text-align: center;
+  }

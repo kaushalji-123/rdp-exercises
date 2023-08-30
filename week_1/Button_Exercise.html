@@ -1,0 +1,53 @@
+
+<head>
+                       //  CSS Style Start from Here 
+  <style>
+  .done{
+  display:flex;
+  justify-content:center;
+}
+.div_btn{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:200px;
+  width:300px;
+  background-color:#DAC0A3;
+  border-radius:10px;
+  margin:50px;
+}
+.button{
+  height:100px;
+  width:150px;
+  border-radius:50px;
+  font-size:40px;
+  background-color:#B8621B;
+  color:white;
+  border:none;
+  cursor: pointer;
+}
+</style>
+ </head>
+<body>
+  <header class="done">
+    <div class="div_btn">
+    <button class="button"> Save </button >
+  </div>
+  </header>
+                       //  Java Script Start From here 
+  <script>
+document.addEventListener("DOMContentLoaded" , function(){
+   const button = document.querySelector(".button");
+  
+    button.addEventListener("click" , function(){
+        if(button.innerHTML === "Save"){
+             button.innerHTML = "Saved";
+             button.style.backgroundColor= "#B31312";
+        } else{
+          button.innerHTML = "Save";
+          button.style.backgroundColor= "#B8621B";
+        }                  
+    });
+});
+  </script>
+</body>
