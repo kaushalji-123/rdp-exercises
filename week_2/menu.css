@@ -1,0 +1,24 @@
+
+.body{
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.backg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 600px;
+    background: -webkit-linear-gradient(90deg, #424b81 10%, #4b1e6f 100% , #2CD3E1 30% );
+    border-radius: 10px;
+}
+.whiteDiv{
+   
+    height: 200px;
+    width: 400px;
+    background-color: aliceblue;
+    border-radius: 3px;
+
+}
