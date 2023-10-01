@@ -6,7 +6,6 @@ html, body, header, main, section, footer {
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  background-color: aquamarine;
 }
 
 main {
@@ -34,18 +33,18 @@ header h1 {
   font-size: 2.5rem;
 }
 
-.nav ul {
+nav ul {
   list-style: none;
 }
-.nav li {
+nav li {
   display: inline-block;
   margin-right: 1rem;
 }
-.nav a {
+nav a {
   color: #fff;
   text-decoration: none;
 }
-.nav a:hover {
+nav a:hover {
   text-decoration: underline;
 }
 
@@ -87,4 +86,4 @@ form button:hover {
   border-radius: 5px;
 }
 
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=style.css.map */

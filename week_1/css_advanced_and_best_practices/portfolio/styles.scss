@@ -1,4 +1,5 @@
-@import "variables";
+
+@import "_Variables";
 
 html,body,header,main,section,footer {
     margin: 0;
@@ -8,6 +9,7 @@ html,body,header,main,section,footer {
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
+    background-color: aquamarine;
 }
 
 main {
@@ -36,17 +38,14 @@ header {
     }
 }
 
-nav{
-
+.nav{
     ul{
         list-style: none;
     }
-
     li{
         display: inline-block;
         margin-right: 1rem;
     }
-
     a{
         color: #fff;
         text-decoration: none;
@@ -79,7 +78,7 @@ form {
     }
 
     button {
-        background-color: $orange;
+        background-color: $red;
         color: $white;
         padding: 1rem 2rem;
         border: none;
@@ -88,7 +87,7 @@ form {
     }
 
     button:hover {
-        background-color: $dark-orange;
+        background-color: $red;
     }
 
 }
@@ -103,3 +102,4 @@ form {
         border-radius: 5px;
     }
 }
+
