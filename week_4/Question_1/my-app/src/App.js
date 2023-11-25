@@ -1,7 +1,7 @@
 // src/App.js
 import React from 'react';
 import SignUp from "./Components/Signup";
-
+import './App.css';
 function App() {
   return (
     <div className="App">

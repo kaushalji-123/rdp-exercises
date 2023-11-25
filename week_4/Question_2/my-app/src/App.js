@@ -1,23 +1,22 @@
-import logo from './logo.svg';
+import Navbar from "./Components/Navbar";
+import Button from "./Components/Button";
+import Divbox from "./Components/Divbox";
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <Navbar/>
+        <div className="heading">
+          <h1>Sending Money to Abord Has Never Been Cheaper</h1>
+          <p>
+            send money with nio limit to over 140 contries . Enjoy the live exchange 
+            <br />rate with our flat $2 fee adn a slick app that's made for you !
+          </p>
+          <Button></Button>
+          <Divbox></Divbox>
+        </div>
+        
     </div>
   );
 }

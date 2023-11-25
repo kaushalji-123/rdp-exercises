@@ -1,38 +1,65 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+  margin: 5px;
+  padding: 0px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: space-between;
+  background-color: antiquewhite;
+}
+.navbarWrapper{
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.heading{
+  width: 75%;
+  height: 100px;  
+}.heading  h1{
+  font-size: 90px;
+  font-weight:bolder;
+  font-family:monospace;
+  font-style: oblique;
+  }
+.heading p{
+  font-size: 15px;
+  font-weight:lighter;
+  font-family:monospace;
+  font-style: oblique;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Try-it{
+  background-color: black;
+  width: 100px;
+  color: aliceblue;
+  padding: 10px;
+  font-size:15px;
+  border-radius: 20px;
+}
+.divBox{
+  margin-left: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.OuterBox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 450px;
+  border-radius: 70px;
+  background-color: blueviolet;
+}
+.circleBox{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background-color: rgb(243, 96, 231);
+}
+.rectangleBox{
+  width: 200px; 
+  height: 150px; 
+  background-color: #3498db;
+  transform: translate(50px, 50px) rotate(45deg) scale(2);
 }
