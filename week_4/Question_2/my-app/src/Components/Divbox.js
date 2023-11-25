@@ -12,13 +12,12 @@ const Divbox = () => {
             </div>
         </div>
         <div className="OuterBox">
-            <div className="hexaBox">
+            <div className="hexagon">
                 i'm A Hexa
             </div>
         </div>
         <div className="OuterBox">
             <div className="triangleBox">
-                i'm A Triangle
             </div>
         </div>
     </div>

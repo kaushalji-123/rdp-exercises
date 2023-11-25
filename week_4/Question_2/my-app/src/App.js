@@ -7,6 +7,8 @@ function App() {
   return (
     <div className="App">
         <Navbar/>
+      <hr class="bold-hr"/>
+
         <div className="heading">
           <h1>Sending Money to Abord Has Never Been Cheaper</h1>
           <p>

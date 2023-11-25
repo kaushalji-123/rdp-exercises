@@ -6,12 +6,32 @@
 .navbar{
   display: flex;
   justify-content: space-between;
-  background-color: antiquewhite;
+  background-color: rgb(255, 255, 255);
 }
-.navbarWrapper{
+.navbarWrapper {
   display: flex;
   justify-content: center;
 }
+
+.navbarWrapper a, .signup a {
+  color: #000;
+  text-decoration: none; 
+  border-bottom: none; 
+  padding: 5px 10px; 
+}
+
+.navbarWrapper a:hover {
+  background-color: #eee;
+}
+.signup a:hover {
+  background-color: #eee;
+}
+.bold-hr {
+  border: none; 
+  height: 2.5px; 
+  background-color: #000;
+}
+
 .heading{
   width: 75%;
   height: 100px;  
@@ -58,8 +78,42 @@
   background-color: rgb(243, 96, 231);
 }
 .rectangleBox{
-  width: 200px; 
+  width: 150px; 
   height: 150px; 
   background-color: #3498db;
-  transform: translate(50px, 50px) rotate(45deg) scale(2);
+  transform: rotate(45deg);
+}
+.hexagon {
+  width: 220px; /* Adjust the size of the hexagon */
+  height: 200px; /* Adjust the size of the hexagon */
+  background-color: rgb(209, 61, 162); /* Set the background color of the hexagon */
+  position: relative;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  /* Clip-path creates the hexagon shape */
+}
+
+.hexagon::before,
+.hexagon::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  border-left: 60px solid transparent; /* Adjust the width to change the hexagon size */
+  border-right: 60px solid transparent; /* Adjust the width to change the hexagon size */
+}
+
+.hexagon::before {
+  top: -34px; /* Adjust the top positioning for the before pseudo-element */
+  border-bottom: 34px solid #3498db; /* Match the background color of the hexagon */
+}
+
+.hexagon::after {
+  bottom: -34px; /* Adjust the bottom positioning for the after pseudo-element */
+  border-top: 34px solid #3498db; /* Match the background color of the hexagon */
+}
+.triangleBox {
+  width: 0px;
+  height: 0px;
+  border-left: 90px solid transparent; /* Adjust width to change triangle size */
+  border-right: 90px solid transparent; /* Adjust width to change triangle size */
+  border-bottom: 200px solid #e31150; /* Adjust height and color */
 }
