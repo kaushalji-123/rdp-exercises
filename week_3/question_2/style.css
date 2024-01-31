@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: auto;
+    padding: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    padding: 100px;
+    height: 500px;
+    width: 600px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+
+}
+.heading{
+    height:50px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    background-color:#87ae89;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+.heading:hover{
+    cursor: pointer;
+    background-color: #3f4e40;
+    color: aliceblue;
+}

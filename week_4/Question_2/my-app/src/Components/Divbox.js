@@ -13,7 +13,6 @@ const Divbox = () => {
         </div>
         <div className="OuterBox">
             <div className="hexagon">
-                i'm A Hexa
             </div>
         </div>
         <div className="OuterBox">

@@ -1,4 +1,9 @@
 import React from 'react'
+import Login from './Login'
+import Signup from './Signups'
+
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 
 const Navbar = () => {
   return (
@@ -18,9 +23,13 @@ const Navbar = () => {
               </ul>
             </div>
             <div className="signup">
-              <a href="#">sign up</a>
-              <a href="#">sign in</a>
-
+      <Router>
+        <Routes>
+          <Route path="/admin/login" element={<Login />} />
+          <Route path="/admin/signup" element={<Signup />} />
+        </Routes>
+      </Router>
+             {/* <Login/> */}
             </div>
         </div>
     </>
